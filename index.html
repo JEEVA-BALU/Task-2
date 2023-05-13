@@ -11,8 +11,17 @@ body {
 * {
   box-sizing: border-box;
 }
-input[type=text], select, textarea {
-  width: 100%;
+
+a{
+  color: white;
+  text-decoration: initial;
+}
+.submit{
+  background-color: #2932cf;
+  color: white;
+  cursor: pointer;
+  width: 40%;
+  border-radius: 5px;
   padding: 12px;
   border: 1px solid #ccc;
   margin-top: 6px;
@@ -20,15 +29,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-input[type=submit] {
-  background-color: #2932cf;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
+.submit:hover {
   background-color: #47cf29;
 }
 
@@ -71,8 +72,7 @@ input[type=submit]:hover {
         <input type="text" id="Email" name="Email" placeholder="Email">
         <textarea id="subject" name="subject" placeholder="Message" style="height:170px"></textarea>
         <div style="text-align:center">
-            <a href="ColourTable.html">
-                <input type="submit" value="SEND"></a>
+          <a href="ColourTable.html"<div class="submit">send</a></div>
     </div>
       </form>
     </div>
